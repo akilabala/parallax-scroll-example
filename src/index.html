@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parallax Scrolling</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div id="skrollr-body">
+    <div class="awards"></div>
+    <div class="header" data-start="opacity:1;" data-150="opacity:1;" data-151="opacity:0;">
+        <ul>
+            <li class="scroll-a" data-start="opacity:1;" data-100="opacity:0.6;" data-150="opacity:0"></li>
+            <li class="scroll-b" data-start="top:-162px; opacity:1;" data-100="top:-50px; opacity:0.6;" data-150="opacity:0"></li>
+            <li class="scroll-health" data-start="top: -150px; opacity:1;" data-100="top: -50px; opacity:0.6;" data-150="opacity:0"></li>
+        </ul>
+    </div>
+    <ul class="side-bar">
+        <li class="red" data-start="width:0;" data-200="width:180px;" data-1700="width:180px;" data-1800="width:0;">
+            <a href="" data-start="opacity:0;" data-200="opacity:1;" data-1700="opacity:1;" data-1800="opacity:0;">STRAWBERRY</a>
+        </li>
+    </ul>
+    <div class="round" data-start="opacity: 0;" data-100="opacity:0.6; transform:scale(0,0);" data-1700="opacity:1; transform:scale(1,1);"
+         data-1800="opacity:0; transform:scale(0,0);"></div>
+    <ul class="group" data-start="opacity:0;" data-200="opacity:1;" data-1700="opacity:1;" data-1800="opacity:0;">
+        <li data-200="opacity: 0;" data-201="opacity:1;" data-300="opacity:1;" data-301="opacity:0;">
+            <span class="strawberry strawberry-0"></span>
+        </li>
+        <li data-300="opacity: 0;" data-301="opacity:1;" data-400="opacity:1;" data-401="opacity:0;">
+            <span class="strawberry strawberry-1"></span>
+        </li>
+        <li data-400="opacity: 0;" data-401="opacity:1;" data-500="opacity:1;" data-501="opacity:0;">
+            <span class="strawberry strawberry-2"></span>
+        </li>
+        <li data-500="opacity: 0;" data-501="opacity:1;" data-600="opacity:1;" data-601="opacity:0;">
+            <span class="strawberry strawberry-3"></span>
+        </li>
+        <li data-600="opacity: 0;" data-601="opacity:1;" data-700="opacity:1;" data-701="opacity:0;">
+            <span class="strawberry strawberry-4"></span>
+        </li>
+        <li data-700="opacity: 0;" data-701="opacity:1;" data-800="opacity:1;" data-801="opacity:0;">
+            <span class="strawberry strawberry-5"></span>
+        </li>
+        <li data-800="opacity: 0;" data-801="opacity:1;" data-900="opacity:1;" data-901="opacity:0;">
+            <span class="strawberry strawberry-6"></span>
+        </li>
+        <li data-900="opacity: 0;" data-901="opacity:1;" data-1000="opacity:1;" data-1001="opacity:0;">
+            <span class="strawberry strawberry-8"></span>
+        </li>
+        <li data-1000="opacity: 0;" data-1001="opacity:1;" data-1100="opacity:1;" data-1101="opacity:0;">
+            <span class="strawberry strawberry-9"></span>
+        </li>
+        <li data-1100="opacity: 0;" data-1101="opacity:1;" data-1200="opacity:1;" data-1201="opacity:0;">
+            <span class="strawberry strawberry-10"></span>
+        </li>
+        <li data-1200="opacity: 0;" data-1201="opacity:1;" data-1300="opacity:1;" data-1301="opacity:0;">
+            <span class="strawberry strawberry-11"></span>
+        </li>
+        <li data-1300="opacity: 0;" data-1301="opacity:1;" data-1400="opacity:1;" data-1401="opacity:0;">
+            <span class="strawberry strawberry-12"></span>
+        </li>
+        <li data-1400="opacity: 0;" data-1401="opacity:1;" data-1500="opacity:1;" data-1501="opacity:0;">
+            <span class="strawberry strawberry-13"></span>
+        </li>
+        <li data-1500="opacity: 0;" data-1501="opacity:1;" data-1600="opacity:1;" data-1601="opacity:0;">
+            <span class="strawberry strawberry-14"></span>
+        </li>
+        <li data-1600="opacity: 0;" data-1601="opacity:1;" data-1700="opacity:1;" data-1701="opacity:0;">
+            <span class="strawberry strawberry-15"></span>
+        </li>
+    </ul>
+    <div class="shire" data-200="opacity:0;" data-201="opacity:1; top:0%; transform: rotate(-25deg);"
+         data-1700="opacity:1; top:75%; transform: rotate(65deg);" data-1800="opacity:0;"></div>
+    <div class="white" data-300="opacity:0" data-301="opacity:1; top:0;" data-1700="left:85%;" data-1800="left:0;" data-1900="opacity:0;"></div>
+</div>
+
+<script src="js/skrollr.min.js"></script>
+<script>
+    var s = skrollr.init();
+</script>
+</body>
+</html>
